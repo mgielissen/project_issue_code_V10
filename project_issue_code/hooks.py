@@ -5,7 +5,7 @@
 
 from odoo import SUPERUSER_ID
 from odoo import api
-from odoo.hooks import pre_init_hook, post_init_hook
+from odoo import pre_init_hook, post_init_hook
 
     def pre_init_hook(cr):
         create_code_equal_to_id(cr)
